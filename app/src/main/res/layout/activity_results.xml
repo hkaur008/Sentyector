@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Results">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-159dp"
+        tools:layout_editor_absoluteY="98dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/result_analysis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#FF5722"
+                android:fontFamily="sans-serif-condensed-light"
+                android:gravity="center"
+                android:padding="20dp"
+                android:shadowColor="#E91E63"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#B6BEC5"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/PERCENTAGE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="percentage"
+                android:textColor="#4CAF50"
+                android:textSize="50sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#03A9F4"
+                        android:fontFamily="sans-serif-black"
+                        android:paddingLeft="10dp"
+                        android:text="Date"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/date_result"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E6B875"
+                        android:fontFamily="sans-serif-medium"
+                        android:padding="10dp"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif-black"
+                        android:paddingLeft="10dp"
+                        android:text="Time"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/Time_result"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E8B76F"
+                        android:fontFamily="sans-serif-medium"
+                        android:padding="10dp"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Result"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#8BC34A"
+                        android:fontFamily="sans-serif-black"
+                        android:paddingLeft="10dp"
+                        android:text="Result"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/Result_result"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#EAC1C1"
+                        android:fontFamily="sans-serif-medium"
+                        android:padding="10dp"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/graph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Positivity Graph!!" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
