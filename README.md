@@ -1,5 +1,5 @@
 # Sentyector
-## An App solution for controling the emotions and solving the problem such as Generation gap and mental health and also provides an web app solution for psychiatrist to visualize the communication of his consultants  
+### An App solution for controling the emotions and solving the problem such as Generation gap and mental health and also provides an web app solution for psychiatrist to visualize the communication of his consultants  
 
 ## Demo Video Link:
   <a href="https://youtu.be/hiu0-gSR_5s">https://youtu.be/hiu0-gSR_5s</a>
@@ -15,4 +15,4 @@
 <img src="https://user-images.githubusercontent.com/56452820/114285535-88171f80-9a75-11eb-8227-96db600bc155.png" height="250px" width="250"/>
 
 
-  
+ Visit for full application !: https://github.com/vaibhavarora102/Sentyector
